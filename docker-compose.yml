@@ -1,6 +1,0 @@
-﻿services:
-  knyazev-ppo:
-    image: knyazev-ppo
-    build:
-      context: .
-      dockerfile: Knyazev-PPO/Dockerfile
