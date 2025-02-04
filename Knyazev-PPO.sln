@@ -5,6 +5,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lab1", "lab1", "{2FF9C453-B
 		lab1\Dockerfile = lab1\Dockerfile
 		lab1\start.sh = lab1\start.sh
 		lab1\start.bat = lab1\start.bat
+		lab1\.dockerignore = lab1\.dockerignore
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "site", "site", "{BA5F378D-DBB3-454B-B85D-B5B71C934C0F}"
