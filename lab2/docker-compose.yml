@@ -1,0 +1,18 @@
+services:
+  app-2048-1:
+    container_name: app-2048-container-1
+    image: app-2048:latest
+    build:
+      context: .
+      dockerfile: Dockerfile 
+    ports:
+      - "1440:8080"
+
+  app-2048-2:
+    container_name: app-2048-container-2
+    image: app-2048:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "1441:8080" 

@@ -1,4 +1,4 @@
-@echo off
+#!/bin/bash
 
 docker build -t app-2048:1.0 -t app-2048:latest .
 
