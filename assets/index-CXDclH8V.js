@@ -82,11 +82,15 @@
 
       <!-- Contact -->
       <section class="section">
-        <h2 class="section-title">Contact Information</h2>
+        <h2 class="section-title">Контактная информация</h2>
         <div class="space-y-2">
           <p class="text-gray-300">
             <span class="font-semibold">Email:</span> 
             <a href="mailto:[your-email]" class="text-blue-400 hover:text-blue-300 transition-colors duration-300">contact@alexpshkov.ru</a>
+          </p>
+          <p class="text-gray-300">
+            <span class="font-semibold">Site:</span> 
+            <a href="#" class="text-blue-400 hover:text-blue-300 transition-colors duration-300">https://alexpshkov.ru</a>
           </p>
           <p class="text-gray-300">
             <span class="font-semibold">Telegram:</span> 
