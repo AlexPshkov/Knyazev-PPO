@@ -29,6 +29,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lab2", "lab2", "{B29D5F85-4
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lab3", "lab3", "{AFE3FED3-2870-43CB-AC45-76DC591C5175}"
+	ProjectSection(SolutionItems) = preProject
+		lab3\main.js = lab3\main.js
+		lab3\style.css = lab3\style.css
+		lab3\.gitignore = lab3\.gitignore
+		lab3\index.html = lab3\index.html
+		lab3\package.json = lab3\package.json
+		lab3\package-lock.json = lab3\package-lock.json
+		lab3\postcss.config.js = lab3\postcss.config.js
+		lab3\tailwind.config.js = lab3\tailwind.config.js
+		lab3\vite.config.ts = lab3\vite.config.ts
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "site", "site", "{143E1DB6-A8C0-4BFB-B672-81CB731CB099}"
 	ProjectSection(SolutionItems) = preProject
@@ -41,6 +52,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "site", "site", "{143E1DB6-A
 		lab2\site\style.css = lab2\site\style.css
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "public", "public", "{378E3A7B-758E-40F3-AE2A-82F18D585B5C}"
+	ProjectSection(SolutionItems) = preProject
+		lab3\site\public\my_avatar.png = lab3\site\public\my_avatar.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{A9773FD4-FAAB-412B-8A99-E393D9F78E7D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{E8A17769-6056-42DC-96DE-2A1054EBBCE7}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\publish-lab-3.yml = .github\workflows\publish-lab-3.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,5 +74,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{BA5F378D-DBB3-454B-B85D-B5B71C934C0F} = {2FF9C453-B4D4-4EC0-965B-028797DD4D44}
 		{143E1DB6-A8C0-4BFB-B672-81CB731CB099} = {B29D5F85-4A0A-4543-AA6B-0941212298F3}
+		{E8A17769-6056-42DC-96DE-2A1054EBBCE7} = {A9773FD4-FAAB-412B-8A99-E393D9F78E7D}
+		{378E3A7B-758E-40F3-AE2A-82F18D585B5C} = {AFE3FED3-2870-43CB-AC45-76DC591C5175}
 	EndGlobalSection
 EndGlobal
